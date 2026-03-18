@@ -141,7 +141,7 @@ def generate_html(events):
 
 if __name__ == "__main__":
     input_file = os.path.join(".tmp", "payload.json")
-    output_file = "calendar.html"
+    output_file = "index.html"
     
     if os.path.exists(input_file):
         with open(input_file, "r", encoding="utf-8") as f:
